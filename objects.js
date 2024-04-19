@@ -31,7 +31,7 @@ const products =[
 groupCategories(products)
 
 //question3 
-//
+//a function that returns a new array containing the names of all students whose average score is greater than or equal to 85
 function averageScore(marks){
     const averageScore= (marks)=>{
         return marks.reduce((sum,marks)=>sum+marks,0)/marks.length;
@@ -55,7 +55,7 @@ averageScore(students)
 
 
 //question 4
-//
+//A function that returns the current age of the car based on the current year and the car's year property
 const car = {
     make: 'Ford',
     model: 'Ranger',
